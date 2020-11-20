@@ -1,0 +1,119 @@
+# 
+---
+C1-limitlossyG-lossyA-ai:
+  encoder:
+    geom_only_flag          : 0
+    ascii_write_flag        : 1
+    color_transform_flag    : 1
+    slice_num               : 1
+    geom_remove_dup_flag    : 1
+    geom_quant_step         : '{}'
+    geom_im_qtbt_k          : '{}'
+    geom_im_qtbt_m          : '{}'
+    geom_context_mode       : '{}'
+    attr_adapt_pred         : '{}'
+    attr_quant_param        : '{}'
+    max_num_of_predict_neighbours : '{}'
+    metrics_enable          : 1
+    symmetry                : 1
+    cal_color               : 1
+    cal_reflectance         : 1
+    duplicate_mode          : 1
+    multineighbour_mode     : 1
+    show_hausdorff          : 1
+    peakvalue               : '{}'
+  
+  decoder:
+    ascii_write_flag        : 1
+    color_transform_flag    : 1
+
+
+C2-losslessG-lossyA-ai:
+  encoder:
+    geom_only_flag          : 0
+    ascii_write_flag        : 1
+    color_transform_flag    : 1
+    slice_num               : 1
+    geom_remove_dup_flag    : 0
+    geom_quant_step         : '{}'
+    geom_im_qtbt_k          : '{}'
+    geom_im_qtbt_m          : '{}'
+    geom_context_mode       : '{}'
+    attr_adapt_pred         : '{}'
+    
+    attr_quant_param        : '{}'
+    max_num_of_predict_neighbours : '{}'
+    
+    metrics_enable          : 1
+    symmetry                : 1
+    cal_color               : 1
+    cal_reflectance         : 1
+    duplicate_mode          : 1
+    multineighbour_mode     : 1
+    show_hausdorff          : 1
+    peakvalue               : '{}'
+  
+  decoder:
+    ascii_write_flag        : 1
+    color_transform_flag    : 1
+
+
+C3-losslessG-limitlossyA-ai:
+  encoder:
+    geom_only_flag          : 0
+    ascii_write_flag        : 1
+    color_transform_flag    : 0
+    slice_num               : 1
+    geom_remove_dup_flag    : 0
+    geom_quant_step         : '{}'
+    geom_im_qtbt_k          : '{}'
+    geom_im_qtbt_m          : '{}'
+    geom_context_mode       : '{}'
+    attr_adapt_pred         : '{}'
+    
+    attr_quant_param        : '{}'
+    max_num_of_predict_neighbours : '{}'
+    
+    metrics_enable          : 1
+    symmetry                : 1
+    cal_color               : 1
+    cal_reflectance         : 1
+    duplicate_mode          : 1
+    multineighbour_mode     : 1
+    show_hausdorff          : 1
+    peakvalue               : '{}'
+  
+  decoder:
+    ascii_write_flag        : 1
+    color_transform_flag    : 0
+
+
+C4-losslessG-losslessA-ai:
+  encoder:
+    geom_only_flag          : 0
+    ascii_write_flag        : 1
+    color_transform_flag    : 0
+    slice_num               : 1
+    slice_num               : 1
+    geom_remove_dup_flag    : 0
+    geom_quant_step         : '{}'
+    geom_im_qtbt_k          : '{}'
+    geom_im_qtbt_m          : '{}'
+    geom_context_mode       : '{}'
+    attr_adapt_pred         : '{}'
+    
+    attr_quant_param        : '{}'
+    max_num_of_predict_neighbours : '{}'
+    
+    metrics_enable          : 1
+    symmetry                : 1
+    cal_color               : 1
+    cal_reflectance         : 1
+    duplicate_mode          : 1
+    multineighbour_mode     : 1
+    show_hausdorff          : 1
+    peakvalue               : '{}'
+  
+  decoder:
+    ascii_write_flag        : 1
+    color_transform_flag    : 0

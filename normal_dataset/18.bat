@@ -1,0 +1,19 @@
+start  python 0.py
+start  python 1.py
+start  python 2.py
+start  python 3.py
+start  python 4.py
+start  python 5.py
+start  python 6.py
+start  python 7.py
+start  python 8.py
+start  python 9.py
+start  python 10.py
+start  python 11.py
+start  python 12.py
+start  python 13.py
+start  python 14.py
+start  python 15.py
+start  python 16.py
+start  python 17.py
+pause

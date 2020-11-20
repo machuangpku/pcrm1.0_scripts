@@ -1,0 +1,203 @@
+# 
+---
+bridge_1mm:
+  peakvalue: 30000
+  category: cat1-A
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 1
+  max_num_of_predict_neighbours: 3
+
+
+double_T_section_1mm:
+  peakvalue: 30000
+  category: cat1-A
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 1
+  max_num_of_predict_neighbours: 3
+
+intersection1_1mm:
+  peakvalue: 30000
+  category: cat1-A
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 1
+  max_num_of_predict_neighbours: 3
+
+intersection2_1mm:
+  peakvalue: 30000
+  category: cat1-A
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 1
+  max_num_of_predict_neighbours: 3
+
+straight_road_1mm:
+  peakvalue: 30000
+  category: cat1-A
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 1
+  max_num_of_predict_neighbours: 3
+
+T_section_1mm:
+  peakvalue: 30000
+  category: cat1-A
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 1
+  max_num_of_predict_neighbours: 3
+
+Ford_01_AVS_1mm:
+  peakvalue: 30000
+  category: cat2-frame
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 3
+
+Ford_02_AVS_1mm:
+  peakvalue: 30000
+  category: cat2-frame
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 3
+
+Ford_03_AVS_1mm:
+  peakvalue: 30000
+  category: cat2-frame
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 3
+
+  
+Livox_01_all_in_one_1mm:
+  peakvalue: 30000
+  category: cat2-frame
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 3
+
+Livox_02_all_in_one_1mm:
+  peakvalue: 30000
+  category: cat2-frame
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 1
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 3
+
+basketball_player_vox11:
+  peakvalue: 2047
+  category: cat3
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+  
+
+dancer_vox11:
+  peakvalue: 2047
+  category: cat3
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+  
+exercise_vox11:
+  peakvalue: 2047
+  category: cat3
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+  
+model_vox11:
+  peakvalue: 2047
+  category: cat3
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+
+Ignatius_vox11:
+  peakvalue: 2047
+  category: cat1-B-0
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+
+QQdog_vox15:
+  peakvalue: 32767
+  category: cat1-B-1
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+
+Truck_vox15:
+  peakvalue: 32767
+  category: cat1-B-1
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+
+Courthouse_vox16:
+  peakvalue: 65535
+  category: cat1-B-1
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+
+Church_vox16:
+  peakvalue: 65535
+  category: cat1-B-1
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+  
+stanford_area_2_vox20:
+  peakvalue: 1048575
+  category: cat1-B-1
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+  
+stanford_area_4_vox20:
+  peakvalue: 1048575
+  category: cat1-B-1
+  geom_im_qtbt_k: 0
+  geom_im_qtbt_m: 0
+  geom_context_mode: 0
+  attr_adapt_pred: 0
+  max_num_of_predict_neighbours: 6
+...

@@ -1,0 +1,120 @@
+# 
+---
+limitlossyG:
+  cat1-B-1:
+    r1:
+      geom_quant_step: 512
+    r2:
+      geom_quant_step: 256
+    r3:
+      geom_quant_step: 64
+    r4:
+      geom_quant_step: 32
+    r5:
+      geom_quant_step: 8
+    r6:
+      geom_quant_step: 4
+  cat1-B-0:
+    r1:
+      geom_quant_step: 16
+    r2:
+      geom_quant_step: 8
+    r3:
+      geom_quant_step: 4
+    r4:
+      geom_quant_step: 2
+    r5:
+      geom_quant_step: 1.33333
+    r6:
+      geom_quant_step: 1.14286
+  cat3:
+    r1:
+      geom_quant_step: 16
+    r2:
+      geom_quant_step: 8
+    r3:
+      geom_quant_step: 4
+    r4:
+      geom_quant_step: 2
+    r5:
+      geom_quant_step: 1.33333
+    r6:
+      geom_quant_step: 1.14286
+  cat2-frame:
+    r1:
+      geom_quant_step: 512
+    r2:
+      geom_quant_step: 256
+    r3:
+      geom_quant_step: 64
+    r4:
+      geom_quant_step: 32
+    r5:
+      geom_quant_step: 8
+    r6:
+      geom_quant_step: 4
+  cat1-A:
+    r1:
+      geom_quant_step: 512
+    r2:
+      geom_quant_step: 256
+    r3:
+      geom_quant_step: 64
+    r4:
+      geom_quant_step: 32
+    r5:
+      geom_quant_step: 8
+    r6:
+      geom_quant_step: 4
+
+
+losslessG:
+  cat3:
+    '':
+      geom_quant_step: 1
+  cat2-frame:
+    '':
+      geom_quant_step: 1
+  cat1-A:
+    '':
+      geom_quant_step: 1
+  cat1-B-0:
+    '':
+      geom_quant_step: 1
+  cat1-B-1:
+    '':
+      geom_quant_step: 1
+
+
+limitlossyA:
+  r1:
+    attr_quant_param: 40
+  r2:
+    attr_quant_param: 32
+  r3:
+    attr_quant_param: 24
+  r4:
+    attr_quant_param: 16
+  r5:
+    attr_quant_param: 8
+
+
+lossyA:
+  r1:
+    attr_quant_param: 48
+  r2:
+    attr_quant_param: 40
+  r3:
+    attr_quant_param: 32
+  r4:
+    attr_quant_param: 24
+  r5:
+    attr_quant_param: 16
+  r6:
+    attr_quant_param: 8
+
+
+losslessA:
+  '':
+    attr_quant_param: 0
+...
